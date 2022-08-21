@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CounterUp</title>
+    <style>
+        body{
+            background: gray;
+        }
+        .main{
+            padding: 40px;
+            background: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+        }
+        .counter{
+            padding: 20px;
+            background: #00ffff;
+            font-size: 50px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <h1 data-delay="2000" class="counter">120</h1>
+        <h1 data-delay="2000" class="counter">260</h1>
+        <h1 data-delay="2000" class="counter">400</h1>
+        <h1 data-delay="2000" class="counter">588</h1>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
